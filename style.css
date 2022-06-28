@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
-
+background-color: transparent;
 }
 
 .hero {
@@ -139,8 +139,9 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 400px;
-    padding-right: 400px;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
     padding-top: 50px;
     padding-bottom: 40px;
 }
@@ -158,8 +159,8 @@ footer {
 }
 
 .action {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 75px;
     margin-bottom: 75px;
     padding-left: 45px;
@@ -171,6 +172,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex: 1 0 auto;
 }
 
 .action-text {
