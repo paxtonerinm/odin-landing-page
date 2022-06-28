@@ -181,6 +181,17 @@ footer {
     line-height: 1;
 }
 
+.action button {
+    height: 60px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: rgb(119, 93, 46);
+    color: #f9faf8;
+    border: 4px solid rgb(49, 44, 34);
+    border-radius: 14px;
+}
+
 footer {
     text-align: center;
 }
